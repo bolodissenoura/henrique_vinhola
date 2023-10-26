@@ -5,7 +5,7 @@ import React from "react";
 export function HeroSection() {
   return (
     <>
-      <div className="w-full flex flex-col md:flex-row gap-8 items-center md:items-start">
+      <div className="w-full flex flex-col md:flex-row gap-8 items-center justify-center md:items-start">
         <Image
           src="/henrique.svg"
           width={364}
@@ -14,7 +14,7 @@ export function HeroSection() {
           priority
         />
         <div className="flex flex-col gap-4 max-w-md">
-          <h1 className="uppercase text-2xl border-l-2">HENRIQUE VINHOLA</h1>
+          <h1 className="uppercase text-5xl border-l-2">HENRIQUE VINHOLA</h1>
           <p className="text-primary-500">Product designer brasileiro</p>
           <p className="text-badgeText">
             Formado em Design Gráfico pela universidade de Franca e especialista
