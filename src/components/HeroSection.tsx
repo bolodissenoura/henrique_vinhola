@@ -15,7 +15,7 @@ export function HeroSection() {
         />
         <div className="flex flex-col gap-4 max-w-md">
           <h1 className="uppercase text-5xl border-l-2">HENRIQUE VINHOLA</h1>
-          <p className="text-primary-500">Product designer brasileiro</p>
+          <p className="text-primary-500 text-2xl">Product designer</p>
           <p className="text-badgeText">
             Formado em Design Gráfico pela universidade de Franca e especialista
             em UX Designer pela Unochapecó. Trabalho como designer há mais de{" "}
