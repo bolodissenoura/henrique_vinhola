@@ -3,6 +3,7 @@ import { Manrope } from "next/font/google";
 import { NavBar } from "@/components/NavBar";
 import { HeroSection } from "@/components/HeroSection";
 import { ClientsSection } from "@/components/ClientsSection";
+import { ProjectsSection } from "@/components/ProjectsSection";
 
 const inter = Manrope({ subsets: ["latin"] });
 
@@ -14,6 +15,7 @@ export default function Home() {
         <div className="w-full">
           <HeroSection />
           <ClientsSection />
+          <ProjectsSection />
         </div>
       </div>
     </main>
