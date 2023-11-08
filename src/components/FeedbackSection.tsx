@@ -12,7 +12,7 @@ export function FeedbackSection() {
         <div className="w-full h-1 rounded-full bg-gray-200"></div>
       </div>
       <div className="w-full flex flex-col gap-8">
-        <div className="flex">
+        <div className="flex md:flex-row flex-col-reverse gap-4 justify-center">
           <div className="flex flex-col">
             <h3 className="uppercase text-4xl text-badgeText">José otávio</h3>
             <p className="text-2xl text-primary-500"> Product designer</p>
@@ -35,7 +35,7 @@ export function FeedbackSection() {
             alt="Rapaz sorrindo."
           />
         </div>
-        <div className="flex text-right justify-between">
+        <div className="flex md:flex-row flex-col gap-4 justify-center">
           <Image
             src="/feedbacks/rafa.png"
             width={300}
@@ -54,7 +54,7 @@ export function FeedbackSection() {
                 </p>
               </div>
             </div>
-            <p className="text-badgeText text-right text-xl">
+            <p className="text-badgeText md:text-right text-xl">
               O Henrique é um profissional incrível, mas mais do que isso, ele
               também é um ser humano extraordinário. Durante todo o nosso
               período de trabalho, ele sempre foi extremamente preocupado com a
@@ -67,7 +67,7 @@ export function FeedbackSection() {
             </p>
           </div>
         </div>
-        <div className="flex">
+        <div className="flex md:flex-row flex-col-reverse gap-4 justify-center">
           <div className="flex flex-col">
             <h3 className="uppercase text-4xl text-badgeText">Daniel Lima</h3>
             <p className="text-2xl text-primary-500">Desenvolvedor front-end</p>
