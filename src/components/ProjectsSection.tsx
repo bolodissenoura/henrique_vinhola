@@ -13,7 +13,7 @@ export function ProjectsSection() {
       </div>
       <div className="w-full flex flex-col ">
         <div>
-          <div className="w-full flex justify-center align-middle p-20 bg-primary-400 hover:px-40 transition-all rounded cursor-pointer">
+          <div className="w-full flex justify-center align-middle p-20 bg-primary-400 hover:px-40 px-40 md:px-0 transition-all rounded cursor-pointer">
             <Image
               src="/portifolio/mockup2.png"
               width={300}
