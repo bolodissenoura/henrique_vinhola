@@ -5,6 +5,7 @@ import { HeroSection } from "@/components/HeroSection";
 import { ClientsSection } from "@/components/ClientsSection";
 import { ProjectsSection } from "@/components/ProjectsSection";
 import { FeedbackSection } from "@/components/FeedbackSection";
+import { ContactSection } from "@/components/ContactSection";
 
 const inter = Manrope({ subsets: ["latin"] });
 
@@ -18,6 +19,7 @@ export default function Home() {
           <ClientsSection />
           <ProjectsSection />
           <FeedbackSection />
+          <ContactSection />
         </div>
       </div>
     </main>
