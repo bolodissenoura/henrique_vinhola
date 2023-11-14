@@ -7,7 +7,7 @@ export function ContactSection() {
     <>
       <div className="w-full flex gap-16 items-center justify-center my-20">
         <div className="w-full h-1 rounded-full bg-gray-200"></div>
-        <h2 className="text-badgeText text-4xl uppercase font-semibold">
+        <h2 className="text-badgeText text-4xl uppercase font-semibold" id="contato">
           Contato
         </h2>
         <div className="w-full h-1 rounded-full bg-gray-200"></div>
