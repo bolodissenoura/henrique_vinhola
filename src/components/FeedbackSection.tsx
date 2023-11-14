@@ -30,15 +30,15 @@ export function FeedbackSection() {
           </div>
           <Image
             src="/feedbacks/otavio.png"
-            width={300}
-            height={300}
+            width={2000}
+            height={400}
             alt="Rapaz sorrindo."
           />
         </div>
         <div className="flex md:flex-row flex-col gap-4 justify-center">
           <Image
             src="/feedbacks/rafa.png"
-            width={300}
+            width={2000}
             height={300}
             alt="Moça sorrindo."
           />
@@ -85,7 +85,7 @@ export function FeedbackSection() {
           </div>
           <Image
             src="/feedbacks/dani.png"
-            width={300}
+            width={2000}
             height={300}
             alt="Rapaz sorrindo."
           />
