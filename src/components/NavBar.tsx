@@ -14,8 +14,8 @@ export function NavBar() {
         />
         <div className="flex justify-around w-full">
           <Link href={"/sobre"}>Sobre mim</Link>
-          <Link href={"/sobre"}>Projetos</Link>
-          <Link href={"/sobre"}>Contato</Link>
+          <Link href={"#projetos"}>Projetos</Link>
+          <Link href={"#contato"}>Contato</Link>
         </div>
       </div>
     </>
