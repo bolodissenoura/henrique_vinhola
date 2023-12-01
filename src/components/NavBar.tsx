@@ -7,7 +7,7 @@ export function NavBar() {
   const router = useRouter();
   return (
     <>
-      <div className="fixed w-full top-2 px-20 bg-white flex items-center">
+      <div className="fixed w-full top-0 px-20 bg-white flex items-center">
         <Image
           src="logo.svg"
           width={58}
