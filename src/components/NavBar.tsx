@@ -6,8 +6,7 @@ import { useRouter } from 'next/router';
 export function NavBar() {
   const router = useRouter();
   return (
-    <>
-      <div className="fixed w-full top-2 px-20 bg-white flex items-center">
+    <div className="fixed w-full top-0 px-20 bg-white flex items-center gap-24">
         <Image
           src="logo.svg"
           width={58}
@@ -21,8 +20,14 @@ export function NavBar() {
             <Link href={"#contato"}>Contato</Link>
           </div>
         ) : (
-          <div className="flex justify-around w-full" >
-            <Link href={"/"} className="flex flex-row">
+          <div className="flex justify-around w-full border-b border-primary-500 max-w-[200px]" >
+            <Link href={"/"} className="flex flex-row gap-2">
+            <Image
+                src="seta.svg"
+                width={18}
+                height={12}
+                alt="Seta"
+              />
               <Image
                 src="house.svg"
                 width={19}
@@ -39,6 +44,5 @@ export function NavBar() {
         )}
         
       </div>
-    </>
   );
 }
