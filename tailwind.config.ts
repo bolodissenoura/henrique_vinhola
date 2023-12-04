@@ -14,6 +14,7 @@ const config: Config = {
       fontFamily: {
         primary: ["Mona-Sans"],
         secondary: ['"Open Sans"'],
+        third:['Bebas-Neue', 'sans-serif'],
       },
       colors: {
         primary: {

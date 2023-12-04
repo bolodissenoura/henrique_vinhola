@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export function ProjectsSection() {
@@ -39,12 +40,14 @@ export function ProjectsSection() {
         <div className="w-full flex justify-between gap-4 mt-8">
           <div className="w-6/12">
             <div className="w-full flex max-h-96 justify-center align-middle bg-pallet-blue hover:pl-10 transition-all rounded cursor-pointer ">
-              <Image
-                src="/portifolio/mockup4.png"
-                width={500}
-                height={500}
-                alt="Muckup de tela celular."
-              />
+              <Link href="/franquias-pearson">
+                <Image
+                  src="/portifolio/mockup4.png"
+                  width={500}
+                  height={500}
+                  alt="Muckup de tela celular."
+                />
+              </Link>
             </div>
             <p className="mt-4">CRM de vendas do grupo Cyrela</p>
           </div>
