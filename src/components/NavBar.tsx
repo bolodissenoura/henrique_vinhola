@@ -20,7 +20,7 @@ export function NavBar() {
             <Link href={"#contato"}>Contato</Link>
           </div>
         ) : (
-          <div className="flex justify-around w-full border-b border-primary-500 max-w-[200px]" >
+          <div className="flex justify-around font-fourth w-full border-b border-primary-500 max-w-[200px]" >
             <Link href={"/"} className="flex flex-row gap-2">
             <Image
                 src="seta.svg"
