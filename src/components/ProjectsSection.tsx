@@ -53,12 +53,14 @@ export function ProjectsSection() {
           </div>
           <div className="w-6/12">
             <div className="w-full flex max-h-96 justify-center align-middle bg-pallet-orange hover:pr-10 transition-all rounded cursor-pointer ">
+              <Link href={"/pansutti"}>
               <Image
                 src="/portifolio/mockup5.png"
                 width={500}
                 height={500}
                 alt="Muckup de tela celular."
               />
+              </Link>
             </div>
             <p className="mt-4">CRM de vendas do grupo Cyrela</p>
           </div>
