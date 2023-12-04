@@ -32,25 +32,25 @@ export default function designSystem() {
       <div className="text-badgeText flex justify-center p-8">
         <div className="w-1/6 text-center">
           <p className="text-4xl font-tertiary">MEU PAPEL</p>
-          <p className="mt-2 text-primary-500 text-2xl">
+          <p className="text-primary-500 text-2xl">
             Product Designer Principal
           </p>
         </div>
         <div className="w-1/6 text-center">
           <p className="text-4xl font-tertiary">TEMPO DE PROJETO</p>
-          <p className="mt-2 text-primary-500 text-2xl">12 meses</p>
+          <p className="text-primary-500 text-2xl">12 meses</p>
         </div>
       </div>
       <div className="text-badgeText text-center">
         <p className="text-4xl font-tertiary">RESPONSABILIDADES</p>
-        <p className="mt-2 text-primary-500 text-2xl">
+        <p className="text-primary-500 text-2xl">
           Criação de Personas, Estratégia, Criação do design System
         </p>
       </div>
-      <div className="border-b border-gray w-1/4 mx-auto my-4 pt-6"></div>
+      <div className="border-b border-gray w-1/4 mx-auto pt-8"></div>
       <div className="max-w-[1200px] mx-auto flex flex-col">
         <div className="text-badgeText max-w-[720px] py-8">
-          <p className="pb-4 text-4xl font-tertiary">OBJETIVO</p>
+          <p className="pb-3 pt-16 text-4xl font-tertiary">OBJETIVO</p>
           <p className="text-2xl font-fourth leading-loose">
             Criar um formato padrão de componente de acordo com o novo Brand da
             marca, iniciado no começo de 2019. Visava-se criar um desisn system
@@ -60,7 +60,7 @@ export default function designSystem() {
           </p>
         </div>
         <div className="text-badgeText max-w-[720px] text-right pb-8 self-end">
-          <p className="pb-4 text-4xl font-tertiary">DESAFIO</p>
+          <p className="pb-3 pt-8 text-4xl font-tertiary">DESAFIO</p>
           <p className="text-2xl font-fourth leading-loose">
             Realizar a criação dos Design System fazendo com que sistemas com
             linguagens completamente diferentes e legado pudessem ter a mesma
@@ -71,7 +71,7 @@ export default function designSystem() {
           </p>
         </div>
         <div className="text-badgeText max-w-[720px] pb-16">
-          <p className="pb-4 text-4xl font-tertiary">MODELO</p>
+          <p className="pb-3 pt-8 text-4xl font-tertiary">MODELO</p>
           <p className="text-2xl font-fourth leading-loose">
             Para este projeto decidimos utilizar o conceito de Atomic Design,
             que é metodologia que divide o design em seus menores componentes ou
@@ -113,13 +113,13 @@ export default function designSystem() {
         </a>
       </div>
       <div className="border-b border-gray max-w-[1200px] mx-auto my-4 pt-6"></div>
-      <div className="text-[#626365] text-right font-fourth max-w-[1000px] mx-auto">
+      <div className="text-[#626365] text-[12px] text-right font-fourth max-w-[1025px] mx-auto">
         <a href="">Próximo Projeto</a>
       </div>
-      <div className="text-[#3C4043] text-3xl text-right font-fourth max-w-[1100px] mx-auto pt-4">
+      <div className="text-[#3C4043] text-4xl text-right font-fourth max-w-[1100px] mx-auto pt-4">
         <a href="">Aplicativo de gestão de academias e treinos {">"}</a>
       </div>
-      <div className="text-[#424248] text-center font-fourth pt-20 pb-16">
+      <div className="text-[#424248] text-center font-fourth py-16">
         <p>Henrique Vinhola © 2023. Todos os Direitos Reservados</p>
       </div>
     </main>
