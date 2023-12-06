@@ -10,20 +10,20 @@ export default function designSystem() {
       <div className="flex justify-center py-8">
         <img src="/clients/questor.svg" alt="Ícone da empresa pearson." />
       </div>
-      <div className="bg-orange-400 w-full">
-        <div className="flex items-center justify-center  space-x-[-80px] w-full">
+      <div className="bg-orange-400 ">
+        <div className="flex items-center justify-center space-x-[-80px] ">
           <img
-            className="w-592 h-auto"
+            className="h-auto max-w-[150px] md:max-w-[592px]"
             src="/portifolio/mockup8.svg"
             alt="mockup8"
           />
           <img
-            className="w-856 h-auto"
+            className="h-auto max-w-[200px] md:max-w-[856px]"
             src="/portifolio/mockup7.svg"
             alt="mockup7"
           />
           <img
-            className="w-558 h-auto"
+            className="h-auto max-w-[150px] md:max-w-[558px]"
             src="/portifolio/mockup9.svg"
             alt="mockup9"
           />

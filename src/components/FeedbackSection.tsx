@@ -4,19 +4,19 @@ import React from "react";
 export function FeedbackSection() {
   return (
     <>
-      <div className="w-full flex gap-16 items-center justify-center my-20">
-        <div className="w-full h-1 rounded-full bg-gray-200"></div>
-        <h2 className="text-primary-500 text-2xl uppercase font-semibold">
-          Recomendações
+      <div className="w-full flex items-center justify-center my-20">
+        <div className="border-b border-gray w-full "></div>
+        <h2 className="text-primary-500 text-3xl font-tertiary mx-2">
+          RECOMENDAÇÕES
         </h2>
-        <div className="w-full h-1 rounded-full bg-gray-200"></div>
+        <div className="border-b border-gray w-full "></div>
       </div>
       <div className="w-full flex flex-col gap-8">
-        <div className="flex md:flex-row flex-col-reverse gap-4 justify-center">
+        <div className="flex md:flex-row flex-col-reverse gap-4 justify-center mb-16">
           <div className="flex flex-col">
-            <h3 className="uppercase text-4xl text-badgeText">José otávio</h3>
-            <p className="text-2xl text-primary-500"> Product designer</p>
-            <p className="text-badgeText text-xl">
+            <h3 className="text-4xl text-badgeText font-tertiary">JOSÉ OTÁVIO</h3>
+            <p className="text-2xl text-primary-500 font-fourth my-3"> Product designer</p>
+            <p className="text-badgeText text-2xl font-fourth">
               Henrique é definitivamente um mestre Jedi. Ele tem esse talento
               incrível de pegar o que os usuários precisam e transformar em
               experiências que fazem realmente sentido. Trabalhando com ele, vi
@@ -29,32 +29,34 @@ export function FeedbackSection() {
             </p>
           </div>
           <Image
+          className="mt-8"
             src="/feedbacks/otavio.png"
-            width={2000}
-            height={400}
+            width={276}
+            height={276}
             alt="Rapaz sorrindo."
           />
         </div>
-        <div className="flex md:flex-row flex-col gap-4 justify-center">
+        <div className="flex md:flex-row flex-col gap-4 justify-center mb-16">
           <Image
+          className="mt-16"
             src="/feedbacks/rafa.png"
-            width={2000}
-            height={300}
+            width={276}
+            height={276}
             alt="Moça sorrindo."
           />
           <div className="flex flex-col">
             <div className="w-full flex justify-between">
               <div></div>
               <div>
-                <h3 className="uppercase text-4xl text-badgeText">
-                  Rafaela carvalho
+                <h3 className="text-4xl text-badgeText font-tertiary text-right">
+                  RAFAELA CARVALHO
                 </h3>
-                <p className="text-2xl text-primary-500">
+                <p className="text-2xl text-primary-500 font-fourth my-3">
                   Desenvolvedora back-end
                 </p>
               </div>
             </div>
-            <p className="text-badgeText md:text-right text-xl">
+            <p className="text-badgeText md:text-right text-2xl font-fourth">
               O Henrique é um profissional incrível, mas mais do que isso, ele
               também é um ser humano extraordinário. Durante todo o nosso
               período de trabalho, ele sempre foi extremamente preocupado com a
@@ -69,9 +71,9 @@ export function FeedbackSection() {
         </div>
         <div className="flex md:flex-row flex-col-reverse gap-4 justify-center">
           <div className="flex flex-col">
-            <h3 className="uppercase text-4xl text-badgeText">Daniel Lima</h3>
-            <p className="text-2xl text-primary-500">Desenvolvedor front-end</p>
-            <p className="text-badgeText text-xl">
+            <h3 className="text-4xl text-badgeText font-tertiary">DANIEL LIMA</h3>
+            <p className="text-2xl text-primary-500 font-fourth my-3">Desenvolvedor front-end</p>
+            <p className="text-badgeText text-2xl font-fourth">
               Henrique é um líder de UX excepcional com uma capacidade inata de
               transformar insights do usuário em experiências integradas e
               envolventes. Sua atenção aos detalhes, natureza colaborativa e
@@ -84,9 +86,10 @@ export function FeedbackSection() {
             </p>
           </div>
           <Image
+          className="mt-8"
             src="/feedbacks/dani.png"
-            width={2000}
-            height={300}
+            width={276}
+            height={276}
             alt="Rapaz sorrindo."
           />
         </div>
