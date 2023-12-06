@@ -1,6 +1,5 @@
 import { NavBar } from "@/components/NavBar";
 
-
 export default function designSystem() {
   return (
     <main className="mt-20 h-screen">
@@ -12,34 +11,46 @@ export default function designSystem() {
         <img src="/clients/questor.svg" alt="Ícone da empresa pearson." />
       </div>
       <div className="bg-orange-400 w-full">
-        <div className="flex items-center justify-center  space-x-[-80px]">
-          <img className="w-592 h-auto" src="/portifolio/mockup8.svg" alt="mockup8" />
-          <img className="w-856 h-auto" src="/portifolio/mockup7.svg" alt="mockup7" />
-          <img className="w-558 h-auto" src="/portifolio/mockup9.svg" alt="mockup9" />
+        <div className="flex items-center justify-center  space-x-[-80px] w-full">
+          <img
+            className="w-592 h-auto"
+            src="/portifolio/mockup8.svg"
+            alt="mockup8"
+          />
+          <img
+            className="w-856 h-auto"
+            src="/portifolio/mockup7.svg"
+            alt="mockup7"
+          />
+          <img
+            className="w-558 h-auto"
+            src="/portifolio/mockup9.svg"
+            alt="mockup9"
+          />
         </div>
       </div>
       <div className="text-badgeText flex justify-center p-8">
         <div className="w-1/6 text-center">
           <p className="text-4xl font-tertiary">MEU PAPEL</p>
-          <p className="mt-2 text-primary-500 text-2xl">
+          <p className="text-primary-500 text-2xl">
             Product Designer Principal
           </p>
         </div>
         <div className="w-1/6 text-center">
           <p className="text-4xl font-tertiary">TEMPO DE PROJETO</p>
-          <p className="mt-2 text-primary-500 text-2xl">12 meses</p>
+          <p className="text-primary-500 text-2xl">12 meses</p>
         </div>
       </div>
       <div className="text-badgeText text-center">
         <p className="text-4xl font-tertiary">RESPONSABILIDADES</p>
-        <p className="mt-2 text-primary-500 text-2xl">
+        <p className="text-primary-500 text-2xl">
           Criação de Personas, Estratégia, Criação do design System
         </p>
       </div>
-      <div className="border-b border-gray w-1/4 mx-auto my-4 pt-6"></div>
+      <div className="border-b border-gray w-1/4 mx-auto pt-8"></div>
       <div className="max-w-[1200px] mx-auto flex flex-col">
-        <div className="max-w-[720px] py-8">
-          <p className="pb-4 text-4xl font-tertiary">OBJETIVO</p>
+        <div className="text-badgeText max-w-[720px] py-8">
+          <p className="pb-3 pt-16 text-4xl font-tertiary">OBJETIVO</p>
           <p className="text-2xl font-fourth leading-loose">
             Criar um formato padrão de componente de acordo com o novo Brand da
             marca, iniciado no começo de 2019. Visava-se criar um desisn system
@@ -48,8 +59,8 @@ export default function designSystem() {
             ia dar base para a criação do outro.
           </p>
         </div>
-        <div className="max-w-[720px] text-right pb-8 self-end">
-          <p className="pb-4 text-4xl font-tertiary">DESAFIO</p>
+        <div className="text-badgeText max-w-[720px] text-right pb-8 self-end">
+          <p className="pb-3 pt-8 text-4xl font-tertiary">DESAFIO</p>
           <p className="text-2xl font-fourth leading-loose">
             Realizar a criação dos Design System fazendo com que sistemas com
             linguagens completamente diferentes e legado pudessem ter a mesma
@@ -59,8 +70,8 @@ export default function designSystem() {
             utilizados devessem ser compativeis a linguagem DELPHI.
           </p>
         </div>
-        <div className="max-w-[720px] pb-16">
-          <p className="pb-4 text-4xl font-tertiary">MODELO</p>
+        <div className="text-badgeText max-w-[720px] pb-16">
+          <p className="pb-3 pt-8 text-4xl font-tertiary">MODELO</p>
           <p className="text-2xl font-fourth leading-loose">
             Para este projeto decidimos utilizar o conceito de Atomic Design,
             que é metodologia que divide o design em seus menores componentes ou
@@ -85,28 +96,30 @@ export default function designSystem() {
           </p>
         </div>
         <div className="grid grid-cols-2 max-w-[1200px] mx-auto gap-2">
-            <img src="/portifolio/photosection1.svg" alt="photosection1" />
-            <img src="/portifolio/photosection2.svg" alt="photosection2" />
-            <img src="/portifolio/photosection3.svg" alt="photosection3" /> 
-            <img src="/portifolio/photosection4.svg" alt="photosection4" /> 
-            <img src="/portifolio/photosection5.svg" alt="photosection5" />
-            <img src="/portifolio/photosection6.svg" alt="photosection6" />
+          <img src="/portifolio/photosection1.svg" alt="photosection1" />
+          <img src="/portifolio/photosection2.svg" alt="photosection2" />
+          <img src="/portifolio/photosection3.svg" alt="photosection3" />
+          <img src="/portifolio/photosection4.svg" alt="photosection4" />
+          <img src="/portifolio/photosection5.svg" alt="photosection5" />
+          <img src="/portifolio/photosection6.svg" alt="photosection6" />
         </div>
       </div>
       <div className="max-w-[1200px] mx-auto pb-16 pt-16">
-        <div className="bg-[#5A6273] h-[64px] text-3xl text-center font-tertiary text-white rounded-md flex items-center justify-center">
-        <a href="">ACESSAR DESIGN SYSTEMㅤ</a>
-        <img src="/portifolio/buttonpansutti.svg" alt="" />
-        </div>
+        <a href="">
+          <div className="bg-[#5A6273] h-[64px] text-3xl text-center font-tertiary text-white rounded-md flex items-center justify-center">
+            ACESSAR DESIGN SYSTEMㅤ
+            <img src="/portifolio/buttonpansutti.svg" alt="" />
+          </div>
+        </a>
       </div>
       <div className="border-b border-gray max-w-[1200px] mx-auto my-4 pt-6"></div>
-      <div className="text-right font-fourth max-w-[1000px] mx-auto">
+      <div className="text-[#626365] text-[12px] text-right font-fourth max-w-[1025px] mx-auto">
         <a href="">Próximo Projeto</a>
       </div>
-      <div className="text-3xl text-right font-fourth max-w-[1100px] mx-auto pt-4">
-        <a href="">Aplicativo de gestão de academias e treinos {'>'}</a>
+      <div className="text-[#3C4043] text-4xl text-right font-fourth max-w-[1100px] mx-auto pt-4">
+        <a href="">Aplicativo de gestão de academias e treinos {">"}</a>
       </div>
-      <div className="text-center font-fourth pt-20 pb-16">
+      <div className="text-[#424248] text-center font-fourth py-16">
         <p>Henrique Vinhola © 2023. Todos os Direitos Reservados</p>
       </div>
     </main>
