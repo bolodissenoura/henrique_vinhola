@@ -5,12 +5,12 @@ import React from "react";
 export function ProjectsSection() {
   return (
     <>
-      <div className="w-full flex gap-16 items-center justify-center my-20">
-        <div className="w-full h-1 rounded-full bg-gray-200"></div>
-        <h2 className="text-badgeText text-4xl uppercase font-semibold" id="projetos">
-          Projetos
+      <div className="flex justify-center items-center mb-16 mt-16">
+      <div className="border-b border-gray w-full "></div>
+        <h2 className="text-badgeText text-6xl font-tertiary mx-14">
+          PROJETOS
         </h2>
-        <div className="w-full h-1 rounded-full bg-gray-200"></div>
+        <div className="border-b border-gray w-full "></div>
       </div>
       <div className="w-full flex flex-col ">
         <div>
@@ -35,7 +35,7 @@ export function ProjectsSection() {
               alt="Muckup de tela celular."
             />
           </div>
-          <p className="mt-4">CRM de vendas do grupo Cyrela</p>
+          <p className="mt-4 font-fourth text-2xl"><strong>CRM de vendas do grupo Cyrela</strong></p>
         </div>
         <div className="w-full flex justify-between gap-4 mt-8">
           <div className="w-6/12">
@@ -47,7 +47,7 @@ export function ProjectsSection() {
                 alt="Muckup de tela celular."
               />
             </div>
-            <p className="mt-4">CRM de vendas do grupo Cyrela</p>
+            <p className="mt-4 font-fourth text-2xl"><strong>Gestão das franquias Pearson (Wizard e Yázigi)</strong></p>
           </div>
           <div className="w-6/12">
             <div className="w-full flex max-h-96 justify-center align-middle bg-pallet-orange hover:pr-10 transition-all rounded cursor-pointer ">
@@ -60,11 +60,11 @@ export function ProjectsSection() {
               />
               </Link>
             </div>
-            <p className="mt-4">CRM de vendas do grupo Cyrela</p>
+            <p className="mt-4 font-fourth text-2xl"><strong>Padronização dos Design Systems WEB e Desktop</strong></p>
           </div>
         </div>
         <div>
-          <div className="w-full flex justify-center align-middle p-20 bg-pallet-gray hover:px-40 transition-all rounded cursor-pointer">
+          <div className="mt-8 w-full flex justify-center align-middle p-20 bg-pallet-gray hover:px-40 transition-all rounded cursor-pointer">
             <Image
               src="/portifolio/mockup6.png"
               className="transition-all hover:translate-y-8"
@@ -73,7 +73,7 @@ export function ProjectsSection() {
               alt="Muckup de tela desktop."
             />
           </div>
-          <p className="mt-4">CRM de vendas do grupo Cyrela</p>
+          <p className="mt-4 font-fourth text-2xl"><strong>Gerenciamento de avaliações e treinos</strong></p>
         </div>
       </div>
     </>
