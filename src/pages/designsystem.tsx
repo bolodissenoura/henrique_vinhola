@@ -1,11 +1,15 @@
 import { NavBar } from "@/components/NavBar";
+import { useTranslationContext } from "@/components/TranslationContext";
 
-export default function designSystem() {
+export default function DesignSystem() {
+  const { t } = useTranslationContext();
+
   return (
     <main className="mt-20 h-screen">
       <NavBar />
+
       <h2 className="text-badgeText text-4xl font-tertiary flex items-center justify-center">
-        PADRONIZAÇÃO DE DESIGN SYSTEM PARA WEB E DESKTOP
+        {t("padronizacao")}
       </h2>
       <div className="flex justify-center py-8">
         <img src="/clients/questor.svg" alt="Ícone da empresa pearson." />

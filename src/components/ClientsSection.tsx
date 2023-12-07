@@ -1,13 +1,15 @@
 import Image from "next/image";
 import React from "react";
+import { useTranslationContext } from "./TranslationContext";
 
 export function ClientsSection() {
+  const { t } = useTranslationContext();
   return (
     <>
       <div className="flex justify-center items-center mb-16">
         <div className="border-b border-gray w-full "></div>
         <h2 className="text-primary-500 text-3xl font-tertiary mx-2">
-          CLIENTES
+        {t('clientes')}
         </h2>
         <div className="border-b border-gray w-full "></div>
       </div>

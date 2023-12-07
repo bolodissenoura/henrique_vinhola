@@ -1,19 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { useTranslationContext } from "./TranslationContext";
 
 export function ContactSection() {
+  const { t } = useTranslationContext();
   return (
     <>
       <div className="w-full flex items-center justify-center my-20">
       <div className="border-b border-gray w-full "></div>
         <h2 className="text-badgeText text-6xl mx-24 font-tertiary" id="contato">
-          CONTATO
+        {t('contatouppercase')}
         </h2>
         <div className="border-b border-gray w-full "></div>
       </div>
       <div className="flex flex-col gap-8 mb-20">
-        <p className="text-primary-500 text-2xl font-fourth">vamos conversar?</p>
+        <p className="text-primary-500 text-2xl font-fourth">{t('vamosconversar')}</p>
         <div className="flex justify-between flex-col md:flex-row">
           <div className="flex gap-4">
             <Image
@@ -64,10 +66,10 @@ export function ContactSection() {
             height={30}
             alt="Icone de download ( seta para baixo )."
           />
-          <p className="text-3xl font-tertiary ">BAIXE MEU CURRÍCULO</p>
+          <p className="text-3xl font-tertiary ">{t('download')}</p>
         </button>
       </div>
-      <p className="text text-badgeText mb-20">Henrique Vinhola © 2023. Todos os Direitos Reservados</p>
+      <p className="text-center text-badgeText font-fourth py-16">Henrique Vinhola © 2023. Todos os Direitos Reservados</p>
       <br />
     </>
   );

@@ -10,6 +10,7 @@ import { ContactSection } from "@/components/ContactSection";
 const inter = Manrope({ subsets: ["latin"] });
 
 export default function Home() {
+  
   return (
     <main className={`${inter.className}`}>
       <NavBar />
