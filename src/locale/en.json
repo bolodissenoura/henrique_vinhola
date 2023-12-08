@@ -26,7 +26,23 @@
     "contatouppercase" : "CONTACT",
     "vamosconversar" : "lets talk?",
     "download" : "DOWNLOAD MY RESUME",
-
-    "padronizacao" : "SYSTEM DESIGN STANDARDIZATION FOR WEB AND DESKTOP"
+    "padronizacao" : "SYSTEM DESIGN STANDARDIZATION FOR WEB AND DESKTOP",
+    "papel" : "MY ROLE",
+    "productdesigner" : "Product Designer Principal",
+    "tempoprojeto" : "PROJECT DURATION",
+    "12meses" : "12 months",
+    "responsabilidades" : "RESPONSABILITIES",
+    "personas" : "Creation of Personas, Strategy, Design System Development",
+    "objetivo" : "OBJECTIVE",
+    "objetivosection" : "To create a standardized component format in accordance with the new brand initiated in early 2019. The goal was to establish a design system for both WEB and DESKTOP systems, with the initial focus on the WEB Design System, which would serve as the foundation for the development of the latter.",
+    "desafio" : "CHALLENGE",
+    "desafiosection" : "To create Design Systems that enable systems with completely different languages and legacy structures to share the same base of components and similar identities. This involved utilizing pre-existing components such as the Metronic framework and DevExpress tables, while ensuring compatibility with the Delphi language.",
+    "modelo" : "MODEL",
+    "modelosection" : "For this project, we decided to adopt the concept of Atomic Design, a methodology that breaks down design into its smallest components or atoms. These atoms combine to create molecules, organisms, templates, and pages. Atomic design provides a more structured and scalable system by dividing design into its smallest components.",
+    "personasuppercase" : "PERSONAS",
+    "personassection" : "The initial idea was to first understand our audience, identify personas to generate products that would become part of these people's daily lives. This involved understanding their work environment, location, values, a bit of their journey outside the company, roles, and, of course, personal data such as age, goals, and history. A survey was conducted among the customer base to collect this data. In this survey, we identified three distinct profiles of individuals.",
+    "acessardesign" : "ACCESS DESIGN SYSTEM ㅤ",
+    "proximoprojeto" : "Next Project",
+    "appgestao" : "Gym and Training Management App"
   }
 }

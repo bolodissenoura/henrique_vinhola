@@ -23,7 +23,7 @@ export function FeedbackSection() {
             </p>
           </div>
           <Image
-          className="mt-8"
+          className="mt-12"
             src="/feedbacks/otavio.png"
             width={276}
             height={276}
@@ -32,7 +32,7 @@ export function FeedbackSection() {
         </div>
         <div className="flex md:flex-row flex-col gap-4 justify-center mb-16">
           <Image
-          className="mt-16"
+          className="mt-20"
             src="/feedbacks/rafa.png"
             width={276}
             height={276}
@@ -64,7 +64,7 @@ export function FeedbackSection() {
             </p>
           </div>
           <Image
-          className="mt-8"
+          className="mt-12"
             src="/feedbacks/dani.png"
             width={276}
             height={276}

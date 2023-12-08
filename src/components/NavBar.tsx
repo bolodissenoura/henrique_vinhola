@@ -3,14 +3,12 @@ import Link from "next/link";
 import React from "react";
 import { useRouter } from "next/router";
 import "i18next";
-import '../lib/i18n'
+import "../lib/i18n";
 import { useTranslationContext } from "./TranslationContext";
 
-
-
 export function NavBar() {
-
-  const { t, handleChangeLanguage } = useTranslationContext();
+  const { t, handleChangeLanguagePT, handleChangeLanguageEN, currentLanguage } =
+    useTranslationContext();
   const router = useRouter();
   return (
     <div
@@ -28,34 +26,39 @@ export function NavBar() {
         <>
           <div className="bg-white flex justify-around w-full font-fourth text-center shadow-[0_2px_4px_0px_rgba(224,224,224,0.25)] ">
             <Link
-              className="w-1/3 hover:border-b-2 hover:border-primary-500 py-4"
-              href={"/sobre"}
+              className="w-1/3 hover:border-b-2 hover:border-primary-500 py-4 transition-all"
+              href={"#"}
             >
-              {t('sobre-mim')}
+              {t("sobre-mim")}
             </Link>
             <Link
-              className="w-1/3 hover:border-b-2 hover:border-primary-500 py-4"
+              className="w-1/3 hover:border-b-2 hover:border-primary-500 py-4 transition-all"
               href={"#projetos"}
             >
-              {t('projetos')}
+              {t("projetos")}
             </Link>
             <Link
-              className="w-1/3 hover:border-b-2 hover:border-primary-500 py-4"
+              className="w-1/3 hover:border-b-2 hover:border-primary-500 py-4 transition-all"
               href={"#contato"}
             >
-              {t('contato')}
+              {t("contato")}
             </Link>
           </div>
           <div className="flex justify-center border-2 rounded-md">
-            <button onClick={handleChangeLanguage} className="flex text-2xl justify-center items-center bg-white hover:bg-[#5F6369] hover:text-white gap-2 rounded-l-md w-[80px] h-[40px]">
-              <Image src="brazil.svg" width={24} height={24} alt="icone do brasil"
-              />
-              PT
-            </button>
-            <button onClick={handleChangeLanguage} className="flex text-2xl justify-center items-center bg-white  hover:bg-[#5F6369] hover:text-white gap-2 rounded-r-md w-[80px] h-[40px]">
-              <Image src="eua.svg" width={24} height={24} alt="icone do eua" />
-              EN
-            </button>
+          <button
+        onClick={handleChangeLanguagePT}
+        className={`flex text-2xl justify-center items-center ${currentLanguage === 'pt' ? 'bg-[#5F6369] text-white' : 'bg-white text-[#5F6369]'} gap-2 rounded-l-md w-[80px] h-[40px]`}
+      >
+        <Image src="brazil.svg" width={24} height={24} alt="icone do brasil" />
+        PT
+      </button>
+      <button
+        onClick={handleChangeLanguageEN}
+        className={`flex text-2xl justify-center items-center ${currentLanguage === 'en' ? 'bg-[#5F6369] text-white' : 'bg-white text-[#5F6369]'} gap-2 rounded-r-md w-[80px] h-[40px]`}
+      >
+        <Image src="eua.svg" width={24} height={24} alt="icone do eua" />
+        EN
+      </button>
           </div>
         </>
       ) : (
@@ -68,7 +71,7 @@ export function NavBar() {
               height={20}
               alt="Icon do botão Home"
             />
-            {t('inicio')}
+            {t("inicio")}
           </Link>
         </div>
       )}

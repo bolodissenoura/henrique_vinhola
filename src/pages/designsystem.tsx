@@ -5,7 +5,7 @@ export default function DesignSystem() {
   const { t } = useTranslationContext();
 
   return (
-    <main className="mt-20 h-screen">
+    <main className="mt-32 h-screen">
       <NavBar />
 
       <h2 className="text-badgeText text-4xl font-tertiary flex items-center justify-center">
@@ -35,68 +35,48 @@ export default function DesignSystem() {
       </div>
       <div className="text-badgeText flex justify-center p-8">
         <div className="w-1/6 text-center">
-          <p className="text-4xl font-tertiary">MEU PAPEL</p>
+          <p className="text-4xl font-tertiary">{t("papel")}</p>
           <p className="text-primary-500 text-2xl">
-            Product Designer Principal
+          {t("productdesigner")}
           </p>
         </div>
         <div className="w-1/6 text-center">
-          <p className="text-4xl font-tertiary">TEMPO DE PROJETO</p>
-          <p className="text-primary-500 text-2xl">12 meses</p>
+          <p className="text-4xl font-tertiary">{t("tempoprojeto")}</p>
+          <p className="text-primary-500 text-2xl">{t("12meses")}</p>
         </div>
       </div>
       <div className="text-badgeText text-center">
-        <p className="text-4xl font-tertiary">RESPONSABILIDADES</p>
+        <p className="text-4xl font-tertiary">{t("responsabilidades")}</p>
         <p className="text-primary-500 text-2xl">
-          Criação de Personas, Estratégia, Criação do design System
+        {t("personas")}
         </p>
       </div>
       <div className="border-b border-gray w-1/4 mx-auto pt-8"></div>
       <div className="max-w-[1200px] mx-auto flex flex-col">
         <div className="text-badgeText max-w-[720px] py-8">
-          <p className="pb-3 pt-16 text-4xl font-tertiary">OBJETIVO</p>
+          <p className="pb-3 pt-16 text-4xl font-tertiary">{t("objetivo")}</p>
           <p className="text-2xl font-fourth leading-loose">
-            Criar um formato padrão de componente de acordo com o novo Brand da
-            marca, iniciado no começo de 2019. Visava-se criar um desisn system
-            para os sistemas WEB e outro muito parecido para os sistemas
-            DESKTOP. O primeiro projeto foi em relação ao Design System WEB que
-            ia dar base para a criação do outro.
+          {t("objetivosection")}
           </p>
         </div>
         <div className="text-badgeText max-w-[720px] text-right pb-8 self-end">
-          <p className="pb-3 pt-8 text-4xl font-tertiary">DESAFIO</p>
+          <p className="pb-3 pt-8 text-4xl font-tertiary">{t("desafio")}</p>
           <p className="text-2xl font-fourth leading-loose">
-            Realizar a criação dos Design System fazendo com que sistemas com
-            linguagens completamente diferentes e legado pudessem ter a mesma
-            base de componentes e identidades semelhantes. Além de utilizar
-            componentes previamente prontos como o framework do Metronic e as
-            tabelas da DevExpress. E também pensando que os componentes
-            utilizados devessem ser compativeis a linguagem DELPHI.
+          {t("desafiosection")}
           </p>
         </div>
         <div className="text-badgeText max-w-[720px] pb-16">
-          <p className="pb-3 pt-8 text-4xl font-tertiary">MODELO</p>
+          <p className="pb-3 pt-8 text-4xl font-tertiary">{t("modelo")}</p>
           <p className="text-2xl font-fourth leading-loose">
-            Para este projeto decidimos utilizar o conceito de Atomic Design,
-            que é metodologia que divide o design em seus menores componentes ou
-            átomos. Esses átomos se combinam para criar moléculas, organismos,
-            modelos e páginas. O design atômico cria um sistema mais estruturado
-            e escalável, dividindo o design em seus menores componentes
+          {t("modelosection")}
           </p>
         </div>
       </div>
       <div className="bg-[#5A6273] w-full py-16">
         <div className="text-center text-white max-w-[1200px] mx-auto">
-          <p className="pb-8 text-4xl font-tertiary">PERSONAS</p>
+          <p className="pb-8 text-4xl font-tertiary">{t("personasuppercase")}</p>
           <p className="pb-8 text-2xl text-left font-fourth leading-loose">
-            A ideia inicial foi primeiro conhecer nosso público, identificar
-            personas para gerar produtos que fizessem parte do dia a dia destas
-            pessoas, entender o ambiente onde trabalham, o local onde moral, um
-            pouco da jornada fora da empresa, cargos, e claro seus dados
-            pessoais como idade, objetivos e história. Foi disparado uma
-            pesquisa para a base de clientes com o objetivo de coletar estes
-            dados. E nesta pesquisa conseguimos identificar três perfis
-            distintos de pessoas.
+          {t("personassection")}
           </p>
         </div>
         <div className="grid grid-cols-2 max-w-[1200px] mx-auto gap-2">
@@ -111,17 +91,17 @@ export default function DesignSystem() {
       <div className="max-w-[1200px] mx-auto pb-16 pt-16">
         <a href="">
           <div className="bg-[#5A6273] h-[64px] text-3xl text-center font-tertiary text-white rounded-md flex items-center justify-center">
-            ACESSAR DESIGN SYSTEMㅤ
+          {t("acessardesign")}
             <img src="/portifolio/buttonpansutti.svg" alt="" />
           </div>
         </a>
       </div>
       <div className="border-b border-gray max-w-[1200px] mx-auto my-4 pt-6"></div>
       <div className="text-[#626365] text-[12px] text-right font-fourth max-w-[1025px] mx-auto">
-        <a href="">Próximo Projeto</a>
+        <a href="">{t("proximoprojeto")}</a>
       </div>
       <div className="text-[#3C4043] text-4xl text-right font-fourth max-w-[1100px] mx-auto pt-4">
-        <a href="">Aplicativo de gestão de academias e treinos {">"}</a>
+        <a href="">{t("appgestao")} {">"}</a>
       </div>
       <div className="text-[#424248] text-center font-fourth py-16">
         <p>Henrique Vinhola © 2023. Todos os Direitos Reservados</p>

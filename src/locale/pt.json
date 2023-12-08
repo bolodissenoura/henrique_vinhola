@@ -27,7 +27,23 @@
     "contatouppercase" : "CONTATO",
     "vamosconversar" : "vamos conversar?",
     "download" : "BAIXE MEU CURRÍCULO",
-
-   "padronizacao" : "PADRONIZAÇÃO DE DESIGN SYSTEM PARA WEB E DESKTOP"
+    "padronizacao" : "PADRONIZAÇÃO DE DESIGN SYSTEM PARA WEB E DESKTOP",
+    "papel" : "MEU PAPEL",
+    "productdesigner" : "Product Designer Principal",
+    "tempoprojeto" : "TEMPO DE PROJETO",
+    "12meses" : "12 meses",
+    "responsabilidades" : "RESPONSABILIDADES",
+    "personas" : "Criação de Personas, Estratégia, Criação do design System",
+    "objetivo" : "OBJETIVO",
+    "objetivosection" : "Criar um formato padrão de componente de acordo com o novo Brand da marca, iniciado no começo de 2019. Visava-se criar um desisn system para os sistemas WEB e outro muito parecido para os sistemas DESKTOP. O primeiro projeto foi em relação ao Design System WEB que ia dar base para a criação do outro.",
+    "desafio" : "DESAFIO",
+    "desafiosection" : "Realizar a criação dos Design System fazendo com que sistemas com linguagens completamente diferentes e legado pudessem ter a mesma base de componentes e identidades semelhantes. Além de utilizar componentes previamente prontos como o framework do Metronic e as tabelas da DevExpress. E também pensando que os componentes utilizados devessem ser compativeis a linguagem DELPHI.",
+    "modelo" : "MODELO",
+    "modelosection" : "Para este projeto decidimos utilizar o conceito de Atomic Design, que é metodologia que divide o design em seus menores componentes ou átomos. Esses átomos se combinam para criar moléculas, organismos, modelos e páginas. O design atômico cria um sistema mais estruturado e escalável, dividindo o design em seus menores componentes",
+    "personasuppercase" : "PERSONAS",
+    "personassection" : "A ideia inicial foi primeiro conhecer nosso público, identificar personas para gerar produtos que fizessem parte do dia a dia destas pessoas, entender o ambiente onde trabalham, o local onde moral, um pouco da jornada fora da empresa, cargos, e claro seus dados pessoais como idade, objetivos e história. Foi disparado uma pesquisa para a base de clientes com o objetivo de coletar estes dados. E nesta pesquisa conseguimos identificar três perfis distintos de pessoas.",
+    "acessardesign" : "ACESSAR DESIGN SYSTEM ㅤ",
+    "proximoprojeto" : "Próximo Projeto",
+    "appgestao" : "Aplicativo de gestão de academias e treinos"
   }
 }

@@ -9,7 +9,7 @@ export function ProjectsSection() {
     <>
       <div className="flex justify-center items-center mb-16 mt-16">
       <div className="border-b border-gray w-full "></div>
-        <h2 className="text-badgeText text-6xl font-tertiary mx-14">
+        <h2 className="text-badgeText text-6xl font-tertiary mx-14" id="projetos">
         {t('projeto')}
         </h2>
         <div className="border-b border-gray w-full "></div>
