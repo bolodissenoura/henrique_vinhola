@@ -1,14 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { useTranslationContext } from "./TranslationContext";
 
 export function ProjectsSection() {
+  const { t } = useTranslationContext();
   return (
     <>
       <div className="flex justify-center items-center mb-16 mt-16">
       <div className="border-b border-gray w-full "></div>
-        <h2 className="text-badgeText text-6xl font-tertiary mx-14">
-          PROJETOS
+        <h2 className="text-badgeText text-6xl font-tertiary mx-14" id="projetos">
+        {t('projeto')}
         </h2>
         <div className="border-b border-gray w-full "></div>
       </div>
@@ -35,7 +37,7 @@ export function ProjectsSection() {
               alt="Muckup de tela celular."
             />
           </div>
-          <p className="mt-4 font-fourth text-2xl"><strong>CRM de vendas do grupo Cyrela</strong></p>
+          <p className="mt-4 font-fourth text-badgeText text-2xl"><strong>{t('cyrela')}</strong></p>
         </div>
         <div className="w-full flex justify-between gap-4 mt-8">
           <div className="w-6/12">
@@ -47,7 +49,7 @@ export function ProjectsSection() {
                 alt="Muckup de tela celular."
               />
             </div>
-            <p className="mt-4 font-fourth text-2xl"><strong>Gestão das franquias Pearson (Wizard e Yázigi)</strong></p>
+            <p className="mt-4 font-fourth text-badgeText text-2xl"><strong>{t('pearson')}</strong></p>
           </div>
           <div className="w-6/12">
             <div className="w-full flex max-h-96 justify-center align-middle bg-pallet-orange hover:pr-10 transition-all rounded cursor-pointer ">
@@ -60,7 +62,7 @@ export function ProjectsSection() {
               />
               </Link>
             </div>
-            <p className="mt-4 font-fourth text-2xl"><strong>Padronização dos Design Systems WEB e Desktop</strong></p>
+            <p className="mt-4 font-fourth text-badgeText text-2xl"><strong>{t('design')}</strong></p>
           </div>
         </div>
         <div>
@@ -73,7 +75,7 @@ export function ProjectsSection() {
               alt="Muckup de tela desktop."
             />
           </div>
-          <p className="mt-4 font-fourth text-2xl"><strong>Gerenciamento de avaliações e treinos</strong></p>
+          <p className="mt-4 font-fourth text-badgeText text-2xl"><strong>{t('treinos')}</strong></p>
         </div>
       </div>
     </>
