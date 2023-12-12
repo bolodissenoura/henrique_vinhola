@@ -6,9 +6,9 @@ import { useTranslationContext } from "./TranslationContext";
 export function HeroSection() {
   const { t } = useTranslationContext();
   return (
-    <div className="w-full flex flex-col md:flex-row gap-8 items-center justify-around pb-16 md:items-start mt-32">
+    <div className="w-full flex flex-col xl:flex-row gap-8 items-center justify-around pb-16 xl:items-start mt-32">
         <Image
-        className="mr-12"
+        className="xl:mr-12"
           src="/henrique.svg"
           width={364}
           height={364}
@@ -16,12 +16,12 @@ export function HeroSection() {
           priority
         />
         <div>
-          <div className="text-center pt-8">
-          <h1 className="text-6xl text-badgeText flex items-center justify-start font-tertiary mb-4">HENRIQUE VINHOLA ㅤ<img src="/iconbrain.svg" alt="" /></h1>
-          <p className="text-primary-500 text-2xl flex justify-start my-3 font-fourth">{t('produto')}</p>
+          <div className="pt-8">
+          <h1 className="text-6xl ml-32 xl:ml-0 text-badgeText flex items-center justify-center xl:justify-start font-tertiary mb-4">HENRIQUE VINHOLA ㅤ<img src="/iconbrain.svg" alt="" /></h1>
+          <p className="text-primary-500 text-2xl flex justify-center xl:justify-start my-3 font-fourth">{t('produto')}</p>
           </div>
           <div>
-          <p className="text-badgeText max-w-[750px] font-fourth text-2xl leading-loose">
+          <p className="text-badgeText max-w-[750px] text-center xl:text-left font-fourth text-2xl leading-loose">
           {t('formacao1')}{" "}
             <strong>{t('formacao2')}</strong>{t('formacao3')}{" "}
             <strong>{t('formacao4')}</strong>{t('formacao5')}{" "}

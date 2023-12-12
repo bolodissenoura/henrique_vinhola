@@ -13,7 +13,7 @@ export function ClientsSection() {
         </h2>
         <div className="border-b border-gray w-full "></div>
       </div>
-      <div className="w-full flex flex-col md:flex-row items-center justify-around">
+      <div className="w-full flex flex-col xl:flex-row items-center justify-around">
         <div className="flex">
           <Image
           className="mr-12"

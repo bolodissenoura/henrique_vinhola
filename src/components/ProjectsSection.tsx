@@ -16,7 +16,7 @@ export function ProjectsSection() {
       </div>
       <div className="w-full flex flex-col ">
         <div>
-          <div className="w-full flex justify-center align-middle p-20 bg-primary-400 hover:px-40 px-40 md:px-0 transition-all rounded cursor-pointer">
+          <div className="w-full flex justify-center align-middle p-20 bg-primary-400 px-40 xl:px-0 rounded cursor-pointer">
             <Image
               src="/portifolio/mockup2.png"
               width={300}
@@ -25,7 +25,6 @@ export function ProjectsSection() {
             />
             <Image
               src="/portifolio/mockup3.png"
-              className="transition-all hover:translate-y-8"
               width={800}
               height={800}
               alt="Muckup de tela desktop."
@@ -41,7 +40,7 @@ export function ProjectsSection() {
         </div>
         <div className="w-full flex justify-between gap-4 mt-8">
           <div className="w-6/12">
-            <div className="w-full flex max-h-96 justify-center align-middle bg-pallet-blue hover:pl-10 transition-all rounded cursor-pointer ">
+            <div className="w-full flex max-h-96 justify-center align-middle bg-pallet-blue rounded cursor-pointer ">
               <Image
                 src="/portifolio/mockup4.png"
                 width={500}
@@ -52,7 +51,7 @@ export function ProjectsSection() {
             <p className="mt-4 font-fourth text-badgeText text-2xl"><strong>{t('pearson')}</strong></p>
           </div>
           <div className="w-6/12">
-            <div className="w-full flex max-h-96 justify-center align-middle bg-pallet-orange hover:pr-10 transition-all rounded cursor-pointer ">
+            <div className="w-full flex max-h-96 justify-center align-middle bg-pallet-orange rounded cursor-pointer ">
               <Link href={"/designsystem"}>
               <Image
                 src="/portifolio/mockup5.png"
@@ -66,10 +65,9 @@ export function ProjectsSection() {
           </div>
         </div>
         <div>
-          <div className="mt-8 w-full flex justify-center align-middle p-20 bg-pallet-gray hover:px-40 transition-all rounded cursor-pointer">
+          <div className="mt-8 w-full flex justify-center align-middle p-20 bg-pallet-gray rounded cursor-pointer">
             <Image
               src="/portifolio/mockup6.png"
-              className="transition-all hover:translate-y-8"
               width={800}
               height={800}
               alt="Muckup de tela desktop."
