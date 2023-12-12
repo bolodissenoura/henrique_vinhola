@@ -104,7 +104,7 @@ export default function designSystem() {
         <a href="">Próximo Projeto</a>
       </div>
       <div className="text-3xl text-right font-fourth max-w-[1100px] mx-auto pt-4">
-        <a href="">Aplicativo de gestão de academias e treinos {'>'}</a>
+        <a href="">Padronização de Design System para WEB e Desktop{'>'}</a>
       </div>
       <div className="text-center font-fourth pt-20 pb-16">
         <p>Henrique Vinhola © 2023. Todos os Direitos Reservados</p>
