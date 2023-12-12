@@ -1,42 +1,44 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { useTranslationContext } from "./TranslationContext";
 
 export function ContactSection() {
+  const { t } = useTranslationContext();
   return (
     <>
-      <div className="w-full flex gap-16 items-center justify-center my-20">
-        <div className="w-full h-1 rounded-full bg-gray-200"></div>
-        <h2 className="text-badgeText text-4xl uppercase font-semibold" id="contato">
-          Contato
+      <div className="w-full flex items-center justify-center my-20">
+      <div className="border-b border-gray w-full "></div>
+        <h2 className="text-badgeText text-6xl mx-24 font-tertiary" id="contato">
+        {t('contatouppercase')}
         </h2>
-        <div className="w-full h-1 rounded-full bg-gray-200"></div>
+        <div className="border-b border-gray w-full "></div>
       </div>
       <div className="flex flex-col gap-8 mb-20">
-        <p className="text-primary-500 text-2xl">vamos conversar?</p>
-        <div className="flex justify-between flex-col md:flex-row">
+        <p className="text-primary-500 text-2xl font-fourth">{t('vamosconversar')}</p>
+        <div className="flex justify-between flex-col 2xl:flex-row">
           <div className="flex gap-4">
             <Image
               src="/zap.svg"
-              width={30}
-              height={30}
+              width={24}
+              height={24}
               alt="Icone do zap zap."
             />
             <Link
               href={"https://api.whatsapp.com/send?phone=5546999314568"}
               target="_blank">
-              <p className="text-xl text-badgeText">(46) 9 9931-4568</p>
+              <p className="text-2xl text-badgeText font-fourth">(46) 9 9931-4568</p>
             </Link>
           </div>
           <div className="flex gap-4">
             <Image
               src="/email.svg"
-              width={30}
-              height={30}
+              width={24}
+              height={24}
               alt="Icone do email."
             />
             <Link href={"mailto:ux.henrique.vinhola@gmail.com"} target="_blank">
-              <p className="text-xl text-badgeText">
+              <p className="text-2xl text-badgeText font-fourth">
                 ux.henrique.vinhola@gmail.com
               </p>
             </Link>
@@ -44,30 +46,30 @@ export function ContactSection() {
           <div className="flex gap-4">
             <Image
               src="/linkedin.svg"
-              width={30}
-              height={30}
+              width={24}
+              height={24}
               alt="Icone do linkedin."
             />
             <Link
               href={"https://www.linkedin.com/in/henrique-vinhola/"}
               target="_blank">
-              <p className="text-xl text-badgeText">
+              <p className="text-2xl text-badgeText font-fourth">
                 linkedin.com/in/henrique-vinhola
               </p>
             </Link>
           </div>
         </div>
-        <button className="w-full bg-badgeText text-white flex justify-center align-middle gap-4 py-4 hover:shadow-none shadow-lg transition-all">
+        <button className="w-full bg-badgeText text-white flex justify-center align-middle gap-4 py-4 rounded-md hover:shadow-none shadow-lg transition-all">
           <Image
             src="/download.svg"
             width={30}
             height={30}
             alt="Icone de download ( seta para baixo )."
           />
-          <p className="text-2xl bold uppercase">baixe meu currículo</p>
+          <p className="text-3xl font-tertiary ">{t('download')}</p>
         </button>
       </div>
-      <p className="text text-badgeText mb-20">Henrique Vinhola © 2023. Todos os Direitos Reservados</p>
+      <p className="text-center text-badgeText font-fourth py-16">Henrique Vinhola © 2023. Todos os Direitos Reservados</p>
       <br />
     </>
   );
