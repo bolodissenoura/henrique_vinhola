@@ -14,7 +14,7 @@ export function FeedbackSection() {
         <div className="border-b border-gray w-full "></div>
       </div>
       <div className="w-full flex flex-col gap-8">
-        <div className="flex md:flex-row flex-col-reverse gap-4 justify-center mb-16">
+        <div className="flex xl:flex-row flex-col-reverse gap-4 justify-center mb-16">
           <div className="flex flex-col">
             <h3 className="text-4xl text-badgeText font-tertiary">JOSÉ OTÁVIO</h3>
             <p className="text-2xl text-primary-500 font-fourth my-3">Product designer</p>
@@ -23,14 +23,14 @@ export function FeedbackSection() {
             </p>
           </div>
           <Image
-          className="mt-12"
+          className="mt-12 self-end 2xl:self-start"
             src="/feedbacks/otavio.png"
             width={276}
             height={276}
             alt="Rapaz sorrindo."
           />
         </div>
-        <div className="flex md:flex-row flex-col gap-4 justify-center mb-16">
+        <div className="flex xl:flex-row flex-col gap-4 justify-center mb-16">
           <Image
           className="mt-20"
             src="/feedbacks/rafa.png"
@@ -50,12 +50,12 @@ export function FeedbackSection() {
                 </p>
               </div>
             </div>
-            <p className="text-badgeText md:text-right text-2xl font-fourth">
+            <p className="text-badgeText xl:text-right text-2xl font-fourth">
             {t('feedbackrafaela')}
             </p>
           </div>
         </div>
-        <div className="flex md:flex-row flex-col-reverse gap-4 justify-center">
+        <div className="flex xl:flex-row flex-col-reverse gap-4 justify-center">
           <div className="flex flex-col">
             <h3 className="text-4xl text-badgeText font-tertiary">DANIEL LIMA</h3>
             <p className="text-2xl text-primary-500 font-fourth my-3">{t('devfrontdani')}</p>
@@ -64,7 +64,7 @@ export function FeedbackSection() {
             </p>
           </div>
           <Image
-          className="mt-12"
+          className="mt-12 self-end 2xl:self-start"
             src="/feedbacks/dani.png"
             width={276}
             height={276}

@@ -16,7 +16,7 @@ export function ContactSection() {
       </div>
       <div className="flex flex-col gap-8 mb-20">
         <p className="text-primary-500 text-2xl font-fourth">{t('vamosconversar')}</p>
-        <div className="flex justify-between flex-col md:flex-row">
+        <div className="flex justify-between flex-col 2xl:flex-row">
           <div className="flex gap-4">
             <Image
               src="/zap.svg"
