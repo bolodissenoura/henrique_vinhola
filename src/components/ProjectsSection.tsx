@@ -40,15 +40,17 @@ export function ProjectsSection() {
         </div>
         <div className="w-full flex justify-between gap-4 mt-8">
           <div className="w-6/12">
-            <div className="w-full flex max-h-96 justify-center align-middle bg-pallet-blue rounded cursor-pointer ">
-              <Image
-                src="/portifolio/mockup4.png"
-                width={500}
-                height={500}
-                alt="Muckup de tela celular."
-              />
-            </div>
-            <p className="mt-4 font-fourth text-badgeText text-2xl"><strong>{t('pearson')}</strong></p>
+            <Link href={"/franquias-pearson"}>
+              <div className="w-full flex max-h-96 justify-center align-middle bg-pallet-blue rounded cursor-pointer ">
+                <Image
+                  src="/portifolio/mockup4.png"
+                  width={500}
+                  height={500}
+                  alt="Muckup de tela celular."
+                />
+              </div>
+              <p className="mt-4 font-fourth text-badgeText text-2xl"><strong>{t('pearson')}</strong></p>
+            </Link>
           </div>
           <div className="w-6/12">
             <div className="w-full flex max-h-96 justify-center align-middle bg-pallet-orange rounded cursor-pointer ">

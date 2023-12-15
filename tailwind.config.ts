@@ -15,7 +15,8 @@ const config: Config = {
         primary: ["Mona-Sans"],
         secondary: ['"Open Sans"'],
         tertiary: ["Bebas Neue"],
-        fourth: ["Manrope"]
+        fourth: ["Manrope"],
+        fifth: ["Microsoft Tai Le"],
       },
       colors: {
         primary: {
