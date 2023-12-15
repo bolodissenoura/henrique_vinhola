@@ -59,19 +59,15 @@ export default function Franquias() {
           <p className="text-2xl font-fourth leading-loose text-badgeText">{t("pearsontext")}</p>
           <p className="text-2xl font-fourth leading-loose text-badgeText">{t("spontetext")}</p>
         </div>
-        <div className="w-2/5 flex flex-col justify-start items-center">
-          <div className="flex flex-col space-y-4">
-            <Image src="/clients/pearson.svg" alt="Imagem 1" width={250} height={250} className="h-full" />
-            <Image src="/clients/sponte.svg" alt="Imagem 1" width={250} height={250} className="h-full" />
-          </div>
+        <div className="w-2/5 flex flex-col items-center justify-center">
+          <Image src="/clients/pearson.svg" alt="Imagem 1" width={250} height={250} className="align-middle" />
+          <Image src="/clients/sponte.svg" alt="Imagem 1" width={250} height={250} className="align-middle" />
         </div>
       </div>
       <div className="max-w-[1200px] text-right mx-auto flex justify-center items-stretch">
-        <div className="w-2/5 flex flex-col justify-start items-center">
-          <div className="flex flex-col space-y-4">
-            <Image src="/clients/wizard.svg" alt="Imagem 1" width={250} height={250} className="h-full" />
-            <Image src="/clients/yazigi.svg" alt="Imagem 1" width={250} height={250} className="h-full" />
-          </div>
+        <div className="w-2/5 flex flex-col items-center justify-center">
+          <Image src="/clients/wizard.svg" alt="Imagem 1" width={250} height={250} className="align-middle" />
+          <Image src="/clients/yazigi.svg" alt="Imagem 1" width={250} height={250} className="align-middle" />
         </div>
         <div className="max-w-[720px] py-8">
           <p className="pb-4 text-4xl font-tertiary text-badgeText">{t("aboutproject")}</p>
@@ -92,20 +88,20 @@ export default function Franquias() {
           <p className="text-2xl font-fourth leading-loose text-badgeText">{t("initialchallengestext4")}</p>
         </div>
       </div>
-      <div className="max-w-[1200px] mx-auto flex justify-center items-stretch">
-        <div className="max-w-[720px] py-8">
-          <p className="pb-4 text-4xl font-tertiary uppercase text-badgeText">{t("cultureandmethodology")}</p>
-          <p className="text-2xl font-fourth leading-loose text-badgeText">{t("cultureandmethodologytext")}</p>
-          <br />
-          <br />
-          <p className="text-2xl font-fourth leading-loose text-badgeText">{t("cultureandmethodologytext2")}</p>
-        </div>
-        <div className="w-2/5 flex flex-col justify-start items-center">
-          <div className="flex flex-col space-y-4">
-            <Image src="/plain.svg" alt="Imagem 1" width={250} height={250} className="h-full" />
+      <div className="max-w-[1200px] text-left mx-auto flex justify-center items-stretch">
+          <div className="max-w-[500px]">
+            <p className="pb-4 text-4xl font-tertiary">{t("cultureandmethodology")}</p>
+            <p className="text-2xl font-fourth leading-loose">{t("cultureandmethodologytext")}</p>
+            <br />
+            <p className="text-2xl font-fourth leading-loose">{t("cultureandmethodologytext2")}</p>
+          </div>
+          <div className="flex">
+            <div className="flex ml-[50px] items-center justify-center">
+              <Image src="/plain.svg" alt="Imagem 1" width={649} height={426} className="align-middle" />
+            </div>
           </div>
         </div>
-      </div>
+        <br />
       <div className="bg-[#5A6273] w-full py-16">
         <div className="text-center text-white max-w-[1200px] mx-auto">
           <p className="pb-8 text-4xl font-tertiary">{t("discovery")}</p>
