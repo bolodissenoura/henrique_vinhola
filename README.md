@@ -1,4 +1,4 @@
-<h1>![image](https://github.com/bolodissenoura/henrique_vinhola/assets/107739590/a50b0132-7dbc-4fb6-a018-7167a3fae15c)</h1>
+![image](https://github.com/bolodissenoura/henrique_vinhola/assets/107739590/a50b0132-7dbc-4fb6-a018-7167a3fae15c)
 
 > Status: Completed ✅
 
