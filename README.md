@@ -21,7 +21,16 @@
   </tr>
 </table>
 
-## How to run the application : 
+## How to run the application: 
 
-1) run terminal: npm install -g npm
-2) run terminal: npm run dev
+### Install dependencies
+
+```
+npm i
+```
+
+### Run the project
+
+```
+npm run dev
+```
